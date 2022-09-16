@@ -39,8 +39,7 @@ export default function UseMemoHook() {
           </p>
           <p>
             And this is where <span className="code-naming">useMemo</span> comes
-            in handy. All we have to do is to pass
-            <span className="code-naming">slowFunction()</span> and dependencies
+            in handy. All we have to do is to pass <span className="code-naming">slowFunction()</span> and dependencies
             to <span className="code-naming">useMemo</span> like here:
           </p>
           <p className="code-text">
