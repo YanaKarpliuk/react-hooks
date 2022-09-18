@@ -6,3 +6,8 @@
 .main-list-item:hover {
   color: #01b3e4;
 }
+
+.main-link {
+  color: #01b3e4;;
+  text-decoration: underline;
+}
