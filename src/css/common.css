@@ -27,10 +27,6 @@ ul{
     padding: 0;
 }
 
-/* li{
-    list-style-type: none;
-} */
-
 button{
     cursor: pointer;
 }
@@ -45,19 +41,42 @@ body {
 .section-title {
   background-color: #20232a;
   color: white;
-  padding: 20px 0 20px 400px;
+  padding: 15px 0 15px 0;
   font-size: 26px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 780px) {
+  .section-title {
+    padding: 20px 0 20px 0;
+  }
 }
 
 .section-container {
-  padding: 20px 400px 20px 400px;
-  font-size: 18px;
+  padding: 10px 10px 20px 10px;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 550px) {
+  .section-container {
+    padding: 20px 0 20px 0;
+    margin: 0 auto;
+    width: 520px;
+    font-size: 18px;
+  }
 }
 
 .section-rules {
   background-color: rgba(255,229,100,0.3);
   border-left: 9px solid #ffe564;
-  padding: 20px 45px 20px 26px;
+  padding: 10px 10px 10px 26px;
+}
+
+@media screen and (min-width: 780px) {
+  .section-rules {
+    padding: 20px 45px 20px 26px;
+  }
 }
 
 .section-rules ul li {
