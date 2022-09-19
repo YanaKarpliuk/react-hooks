@@ -117,6 +117,18 @@ body {
   color: rgb(121, 182, 242);
 }
 
+.code-text-red {
+  color: rgb(252, 146, 158);
+}
+
+.code-text-yellow {
+  color: rgb(250, 200, 99);
+}
+
+.code-text-green {
+  color: rgb(141, 200, 145);
+}
+
 .code-naming {
   font-family: 'Source Code Pro', monospace;;
 }
