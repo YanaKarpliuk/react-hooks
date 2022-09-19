@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Copy() {
+export default function UseCallbackHook() {
   return (
     <div>
       <h2 className="section-title"></h2>
@@ -11,7 +11,7 @@ export default function Copy() {
           </ul>
         </div>
         <div className="section-explanation">
-          
+          callback
         </div>
       </div>
     </div>

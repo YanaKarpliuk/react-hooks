@@ -32,6 +32,36 @@ export default function MainPage() {
               useState
             </NavLink>
           </li>
+          <li>
+            <NavLink to="/use-callback-hook" className="main-list-item">
+              useCallback
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/use-context-hook" className="main-list-item">
+              useContext
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/use-effect-hook" className="main-list-item">
+              useEffect
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/use-imperative-handle-hook" className="main-list-item">
+              useImperativeHandle
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/use-layout-effect-hook" className="main-list-item">
+              useLayoutEffect
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/use-ref-hook" className="main-list-item">
+              useRef
+            </NavLink>
+          </li>
         </ul>
       </div>
     </div>

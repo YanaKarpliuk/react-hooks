@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function UseReducerHook() {
+export default function UseEffectHook() {
   return (
     <div>
       <h2 className="section-title"></h2>
@@ -11,7 +11,7 @@ export default function UseReducerHook() {
           </ul>
         </div>
         <div className="section-explanation">
-          reducer
+          effect
         </div>
       </div>
     </div>

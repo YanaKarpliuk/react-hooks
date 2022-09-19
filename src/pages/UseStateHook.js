@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../css/useStateHook.css";
 
-export default function UseState() {
+export default function UseStateHook() {
   const boxes = [
     {
       id: 1,
