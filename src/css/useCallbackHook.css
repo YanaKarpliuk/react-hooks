@@ -1,0 +1,10 @@
+.callback-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.callback-input {
+  width: 100px;
+  padding: 5px;
+}
