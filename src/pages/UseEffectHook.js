@@ -50,14 +50,24 @@ export default function UseEffectHook() {
               Run effect on mount and clean up on unmount:
             </li>
             <p className="code-text" style={{ margin: "0 0 15px 0" }}>
-              <span className="code-text-blue">useEffect</span>(() =&#62;
-              &#123;
-              <br/>&nbsp;&nbsp;const <span className="code-text-red">handleKeyDown</span> = e =&#62; console.log("keydown event: ", e);
-              <br/>&nbsp;&nbsp;document.<span className="code-text-violet">addEventListener</span>("keydown", <span className="code-text-red">handleKeyDown</span>);
-              <br/>&nbsp;&nbsp;<span className="code-text-violet">return</span> () =&#62; &#123;
-              <br/>&nbsp;&nbsp;&nbsp;&nbsp;document.<span className="code-text-violet">removeEventListener</span> ("keydown", <span className="code-text-red">handleKeyDown</span>);
-              &#125;
-              &#125;, [])
+              <span className="code-text-blue">useEffect</span>(() =&#62; &#123;
+              <br />
+              &nbsp;&nbsp;const{" "}
+              <span className="code-text-red">handleKeyDown</span> = e =&#62;
+              console.log("keydown event: ", e);
+              <br />
+              &nbsp;&nbsp;document.
+              <span className="code-text-violet">addEventListener</span>
+              ("keydown", <span className="code-text-red">handleKeyDown</span>);
+              <br />
+              &nbsp;&nbsp;<span className="code-text-violet">return</span> ()
+              =&#62; &#123;
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;document.
+              <span className="code-text-violet">removeEventListener</span>{" "}
+              ("keydown", <span className="code-text-red">handleKeyDown</span>);
+              <br/>&nbsp;&nbsp;&#125; 
+              <br/>&#125;, [])
             </p>
           </ul>
         </div>
